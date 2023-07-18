@@ -3,6 +3,7 @@ App-rating-scraper-with python (Slack App).
 I will be adding this .README file, so that you can easily get access to the code.
 
 ## Step 1
+Installation of the app store library using `pip` .
 ```python
 pip install app_store_scraper 
 
