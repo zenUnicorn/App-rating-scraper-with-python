@@ -33,7 +33,7 @@ slack.reviews
 ## Step 3
 ```python
 slackdf = pd.DataFrame(np.array(slack.reviews),columns=['review'])
-slackdf2 = df.join(pd.DataFrame(slackdf.pop('review').tolist()))
+slackdf2 = slackdf.join(pd.DataFrame(slackdf.pop('review').tolist()))
 slackdf2.head()
 ```
 
